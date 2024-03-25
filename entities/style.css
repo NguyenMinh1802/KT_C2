@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    position: relative;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add-employee {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #007bff; /* Thêm đường viền */
+    border-radius: 4px;
+    margin-left: auto; /* Di chuyển sang bên phải */
+    transition: background-color 0.3s, border-color 0.3s; /* Tạo hiệu ứng khi hover */
+}
+
+.add-employee:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; /* Thay đổi màu đường viền khi hover */
+}
+
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+table td img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -80px;
+    margin-top: -20px;
+    
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+}
+
+.pagination li a:hover {
+    background-color: #ddd;
+}
+
+.action-links a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.action-links a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form input fields */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+}
+
+/* Success message */
+.success-message {
+    color: green;
+}
